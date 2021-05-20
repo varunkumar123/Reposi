@@ -4,8 +4,8 @@ public class Predicates {
     	
        Predicate<Integer> predicate = (person) -> person > 30;
        
-        boolean result = predicate.test(35);
+        boolean results = predicate.test(35);
         
-        System.out.println(result);
+        System.out.println(results);
     }
 }
